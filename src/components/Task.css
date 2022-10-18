@@ -1,0 +1,29 @@
+.task_container {
+    background-color: #4444;
+
+    margin: 8px 0;
+    padding: 15px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 0.5rem;
+
+    cursor: pointer;
+    transition: 1s;
+}
+.task_container:hover {
+    background-color: #555;
+}
+
+.task-title {
+    cursor: pointer;
+}
+
+/* .remove-task-button {
+    background-color: #222;
+    border: none;
+    font-size: 16px;
+    color: hsl(177, 70%, 41%);
+} */
